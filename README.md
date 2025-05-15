@@ -1,7 +1,5 @@
 # MyBookStore
 
-Para concluir a etapa prática, você precisará criar o app chamado "**MyBookStore**".
-
 #### Links úteis:
 
 > Figma
