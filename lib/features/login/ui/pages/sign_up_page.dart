@@ -284,7 +284,7 @@ class _SignUpFormState extends State<_SignUpForm> with ValidatorMixin {
             keyboardType: TextInputType.visiblePassword,
             textCapitalization: TextCapitalization.none,
             inputFormatters: [LengthLimitingTextInputFormatter(9)],
-            validator: validatePassword(confirmPassword: widget.controllerConfirmPassword.text),
+            validator: validatePassword(),
             suffix: ObscureEyeWidget(
               isObscurePassword: isObscurePassword,
               onTap: () => setState(() => isObscurePassword = !isObscurePassword),
